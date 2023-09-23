@@ -1,0 +1,15 @@
+class fetchlastdigit
+{
+	public static void main(String[] args) 
+	{
+		int num = 5674;
+
+		int result1 = num/10;
+
+		int num = 5674;
+
+		int result2 = result1 % 10;
+
+		System.out.println(result2);
+	}
+}
