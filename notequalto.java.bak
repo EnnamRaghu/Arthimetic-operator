@@ -1,0 +1,15 @@
+class Notequalto
+{
+	public static void main(String[]args)
+	{
+		int a = 4;
+		int b = 8;
+		int c = 4;
+
+		boolean res1 = a!=b;
+		boolean res2 = a!=c;
+
+		System.out.println(res1);
+		System.out.println(res2);
+}
+}
