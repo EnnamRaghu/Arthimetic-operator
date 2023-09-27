@@ -1,0 +1,41 @@
+//ASSIGNMENT OPERATORS IN JAVA
+
+// WE hava 6 types of assignment operators present in java they are:
+
+///(=,+=,-=,*=,%=,/=)
+
+//Syntax follows as (OP1 += OP2)
+
+class Assignmentoperators 
+{
+	public static void main(String[] args) 
+	{
+		int a = 5; 
+
+		int b = 6;
+
+		
+		int result = (a+=b);
+
+		
+
+		System.out.println("a value is:"+result);
+
+		int w = 5;
+
+		char c = 'A';
+
+		double d = 2.2;
+
+		a+=c;
+		c+=d;
+		d*=a;
+
+		System.out.println(a);
+		System.out.println(c);
+		System.out.println(d);
+
+
+		
+	}
+}
