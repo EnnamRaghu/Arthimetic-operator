@@ -1,0 +1,25 @@
+class Notoperator
+{
+	public static void main(String[] args) 
+	{
+		int a =14;
+
+		int b = 19;
+
+		System.out.println(a<b);
+
+		System.out.println(!(a<b));
+
+
+        System.out.println(!(true));
+
+		//WAP to check the given number 10 is divisible by '2' or less than 50 ?
+
+		int num = 10;
+
+		result = (!(10%2==0 || a<50));
+
+				System.out.println(result);
+
+	}
+}
